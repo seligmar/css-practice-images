@@ -1,0 +1,9 @@
+.candles {
+  text-align: center;
+}
+
+/* the below code highlights selected text  */
+::selection {
+  background-color: goldenrod;
+  color: #f1f1f1;
+}
