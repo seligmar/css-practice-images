@@ -7,3 +7,16 @@
   background-color: goldenrod;
   color: #f1f1f1;
 }
+
+/* creates a large first character */
+.dropcap {
+  float: center;
+  font-size: 400%;
+  color: #cf142b;
+  margin: -13px -8px -13px 0;
+}
+
+.image {
+  /* width: 100%; */
+  overflow: hidden;
+}
