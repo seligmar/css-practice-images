@@ -2,7 +2,14 @@
   text-align: center;
 }
 
-/* the below code highlights selected text  */
+.example1 {
+  background-image: url(https://sasquatchbrewery.com/wp-content/uploads/2018/06/lil.jpg),
+    url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+
 ::selection {
   background-color: goldenrod;
   color: #f1f1f1;
@@ -26,7 +33,7 @@
 } */
 
 .polaroid {
-  /* border-radius: 50%; */
+  border-radius: 50%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
